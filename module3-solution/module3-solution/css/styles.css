@@ -1,0 +1,47 @@
+body {
+ font-family: "Merienda", cursive;
+ font-optical-sizing: auto;
+ font-style: normal;
+}
+.header-wrap {
+ background-color: #ffc400f7;
+}
+.navbar-nav .nav-item {
+ border-bottom: 1px solid #191919;
+}
+.box .inner {
+ position: relative;
+ border-radius: 4px;
+ color: #191919;
+ background-color: rgba(0, 0, 0, 0.05);
+ transition: 0.2s ease all;
+ cursor: pointer;
+}
+.box .inner:hover {
+ background-color: rgb(255 207 90);
+}
+.box .inner p {
+ font-size: 14px;
+}
+
+.box .inner::after {
+ content: "";
+ height: 6px;
+ width: 0;
+ bottom: 0;
+ left: 0;
+ position: absolute;
+ transition: 0.5s ease all;
+}
+.box .inner:hover::after {
+ width: 100%;
+}
+.box .inner::after {
+ background-color: black;
+}
+
+@media (min-width: 576px) {
+ .navbar-expand-lg .navbar-collapse.d-sm-none {
+  display: none !important;
+ }
+}

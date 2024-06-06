@@ -1,0 +1,17 @@
+Coursera 
+Paid by Raman
+HTML, CSS, and Javascript for Web Developers
+
+https://www.coursera.org/learn/html-css-javascript-for-web-developers
+
+
+Github
+https://github.com/jhu-ep-coursera/fullstack-course4
+
+Learning book for Git
+https://www.gitbook.com/
+
+Browser-syn for local server
+
+command for windows
+Go into project folder > browser-sync start --server --directory --files "*"
